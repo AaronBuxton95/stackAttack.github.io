@@ -1,0 +1,100 @@
+body, html{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url(earth_background.jpg);
+    background-attachment: fixed;
+    background-color:black;
+    
+}
+
+.messageIntro{
+    color:whitesmoke;
+    font-size:45px;
+    margin: auto;
+    padding: 25px -15px 25px;
+    height:-25px;
+    text-align: center;
+    font-family: 'Audiowide', cursive;
+}
+
+.messageIntro_02{
+    color:red;
+    font-size:45px;
+    margin: auto;
+    padding: 25px -15px 25px;
+    height:-25px;
+    text-align: center;
+    font-family: 'Audiowide', cursive;
+
+}
+
+.welcomeMessage{
+    color:whitesmoke;
+    font-size:45px;
+    margin: auto;
+    padding: 25px -15px 25px;
+    height:-25px;
+    text-align: center;
+    animation-name:welcome;
+    animation-duration: 6s;
+    animation-direction:alternate;
+    animation-iteration-count: infinite;
+    font-family: 'Audiowide', cursive;
+}
+
+@keyframes welcome{
+    0% {color:whitesmoke;}
+    20%{color:blue;}
+    40%{color:blueviolet;}
+    60%{color:orangered;}
+    80%{color:greenyellow;}
+    100%{color:red;}
+}
+
+.searchBox{
+margin: 10%;
+text-align:center;
+}
+
+.tableHead{
+    color:white;
+    background-color:gray;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 110%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.alert{
+    color:red;
+}
+
+#animation{
+    text-align: center;
+}
+#textbox{
+    margin: 0;
+}
+#title2{
+    text-align: center;
+    color: beige;
+    font-family: 'Audiowide', cursive;
+}
+
+#title3{
+    text-align: center;
+    color: beige;
+    font-family: 'Audiowide', cursive;
+}
+
+
+
+
+
